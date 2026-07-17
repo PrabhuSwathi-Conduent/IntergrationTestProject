@@ -19,3 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('test.salesforce.com')
 
+WebUI.waitForPageLoad(20)
+
+WebUI.closeBrowser()
+
