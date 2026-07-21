@@ -23,3 +23,5 @@ WebUI.waitForPageLoad(20)
 
 WebUI.closeBrowser()
 
+WebUI.openBrowser('google.com')
+
